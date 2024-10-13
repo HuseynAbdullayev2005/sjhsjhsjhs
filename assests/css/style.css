@@ -1,0 +1,309 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+    height: 100%;
+}
+
+
+#nav {
+    background-color: rgba(245, 243, 243, 0.671);
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    min-height: 100px;
+
+}
+
+.navbar_text {
+    width: 20%;
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+}
+
+.navbar_list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar_list_items {}
+
+.list {
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+
+    gap: 20px;
+    color: rgb(100, 99, 99);
+
+}
+
+.navbar_list_card {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.navbar_list_card:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+
+
+.zero {
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+
+.hidden_menu {
+    display: none;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#shopinstyle {
+    background-color: rgb(33, 33, 36);
+
+}
+
+.shop_in_style_text {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shop_in_style_heading {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+
+    width: 50%;
+    text-align: center;
+}
+
+.shop_in_style_content {
+    width: 40%;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(161, 161, 161);
+}
+
+
+
+.big_card {
+    margin: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+
+img {
+    position: relative;
+   z-index: -1;
+    width: 100%;
+   
+}
+
+h6{
+    position: absolute;
+   
+ 
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.card {
+    border: 1px solid grey;
+    width: calc(25% - 30px);
+}
+
+
+.fancy_product_lower {
+    height: 160px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.fancy_product_lower_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttons {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 30px;
+    border-radius: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+
+.special_item_lower {
+    height: 160px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.special_item_lower_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.star_icon {
+    color: gold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sale_item_lower_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sale_item_lower {
+    height: 160px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.popular_item_lower_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popular_item_lower {
+    height: 160px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#foot {
+    margin-top: 10px;
+    background-color: rgb(33, 33, 36);
+
+}
+
+.foot {
+    font-size: 20px;
+    color: rgb(214, 211, 211);
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .navbar {
+        padding: 30px;
+       justify-content: space-between;
+    
+    }
+
+    .hidden_menu {
+        display: block;
+
+    }
+
+    .navbar_list {
+        display: none;
+    }
+
+    .card {
+        border: 1px solid grey;
+        width: calc(33.3333% - 30px);
+    }
+
+    .big_card {
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 30px;
+       justify-content: space-between;
+    
+    }
+
+    .hidden_menu {
+        display: block;
+
+    }
+
+    .navbar_list {
+        display: none;
+    }
+
+    .card {
+        border: 1px solid grey;
+        width: calc(50% - 30px);
+    }
+
+    .big_card {
+        justify-content: center;
+    }
+}
